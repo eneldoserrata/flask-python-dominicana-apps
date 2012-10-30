@@ -21,4 +21,7 @@ MAIL_USE_SSL    = True
 MAIL_USERNAME   = 'eneldoserrata@gmail.com'
 MAIL_PASSWORD   = 'enegis2007'
 
+BABEL_DEFAULT_LOCALE = 'es'
+BABEL_DEFAULT_TIMEZONE = 'UTC'
+
 
