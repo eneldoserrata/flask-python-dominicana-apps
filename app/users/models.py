@@ -1,9 +1,7 @@
+__author__ = 'eneldoserrata'
+
 from app import app, db
 from flask.ext.security import RoleMixin, UserMixin, Security, SQLAlchemyUserDatastore
-
-
-
-__author__ = 'eneldoserrata'
 
 roles_users = db.Table('roles_users',
     db.Column('user_id', db.Integer(), db.ForeignKey('user.id')),
